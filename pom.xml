@@ -5,7 +5,7 @@
   <groupId>org.monarchinitiative.phenol</groupId>
   <artifactId>phenol</artifactId>
   <packaging>pom</packaging>
-  <version>1.2.4</version>
+  <version>1.2.5-SNAPSHOT</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
 
@@ -92,8 +92,7 @@
   </scm>-->
 
   <scm>
-    <developerConnection>scm:git:git@github.com:aeyates/phenol.git</developerConnection>
-    <tag>phenol-1.2.4</tag>
+    <developerConnection>scm:git:https://github.com/aeyates/phenol.git</developerConnection>
   </scm>
 
   <dependencies>
