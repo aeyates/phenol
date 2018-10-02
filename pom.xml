@@ -91,6 +91,10 @@
     <url>scm:git:git@github.com:phenomics/ontolib.git</url>
   </scm>-->
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/aeyates/phenol.git</developerConnection>
+  </scm>
+
   <dependencies>
     <!-- JUnit testing -->
     <dependency>
@@ -340,6 +344,14 @@
           </sourceDirectories>
         </configuration>
       </plugin>
+
+      <!-- Use release:prepare to get the pom versions ready for release. -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+
     </plugins>
 
     <!-- Ignore various plugins in Eclipse/m2e -->
